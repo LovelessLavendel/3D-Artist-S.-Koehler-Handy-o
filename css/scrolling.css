@@ -1,0 +1,1109 @@
+﻿@charset "UTF-8";
+/*@import url('css/normalize.css');*/
+/*@import url('https://fonts.googleapis.com/css?family=Inconsolata|Montserrat');*/
+
+/* ---
+Allgemeine Grundeinstellungen             ---*/
+
+
+button {
+    margin-left: 3%;
+    margin-top: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #818382;
+height: 100%;
+}
+
+article {
+    display: block;
+}
+
+
+.box {
+    width: 100%;
+    display: block; margin-bottom: 1rem;
+}
+
+.section {
+    background: #818382;
+    padding-top: 20px;
+}
+
+.section-0 {
+    height: 100vh;
+    background-image: url(../Bilder/SpiralKopf.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+.section-1 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/AltesHoltzZimmer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-2 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Raumstazion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-3 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Leder_Tasche1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-4 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/JapanischesWohnhaus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-5 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/EC-Karte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-6 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/lesezimmer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-7 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Webstuhl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-8 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Schatullen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-9 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-position: center;
+    background-image: url(../Bilder/SpiralKopf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-10 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/KornErnte.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-11 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/ChakramMesser1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-12 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Schmuck_Anhenger.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-13 {
+    height: 100vh;
+    background-image:
+        url(../Bilder/Rucksack1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-14 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Kupfer_Koepfe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-15 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/KrumSchwerter1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-16 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Stal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-17 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Tasche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-18 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Werkstat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-19 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Chassi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-20 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Knast1-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-21 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/helm-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-22 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/kugel1-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-23 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/buss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-24 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Buchtop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-25 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/CO-Filter-Selbstretter2top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-26 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/DoseKatzenfuttertop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-27 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Dynamittop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-28 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/automartentop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-29 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Bordtop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-30 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Violinetop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-31 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Jeeptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-32 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Ledersovatop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-33 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/loretop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-34 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/NotStronGeneratortop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-35 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Raumschiftop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-36 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Tracktor1top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-37 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Tesseltop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-38 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Taddytop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-39 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Glüwürmchentop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-40 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/MarinKaefertop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-41 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Igeltop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}.section-42 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Bruecketop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-43 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Resturandtop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-44 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/WonzimmerJapanischtop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-45 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/Ruine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.section-46 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/InroWohnzimmer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.section-47 {
+    height: 100vh;
+    padding-bottom: 100px;
+    background-image: url(../Bilder/HertzAnhaengertop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+
+/*---
+seit scrolling !die achse ist um 90 grar verdret
+---*/
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+
+.horizontal-scroll-wrapper {
+    width: 150px;
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    display: block;
+    float: left;
+}
+
+.horizontal-scroll-wrapper div {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+
+.img_scr img {
+    width: 150px;
+    transform: rotate(90deg);
+    height: 150px;
+}
+
+/*---
+Text
+---*/
+
+h1 {
+    font-size: 400%;
+    text-align: center;
+    color: black;
+    margin: 0;
+    background: #818382;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+h2 {
+    font-size: 450%;
+    color: black;
+    text-align: center;
+    text-shadow: 0 0 10px WhiteSmoke;
+    display: block;
+    margin: 0;
+    padding-top: 120px;
+}
+
+h3 {
+    font-size: 420%;
+    margin: 0;
+    color: black;
+    padding-left: 10%;
+    display: block;
+    padding-top: 20px;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+h4 {
+    font-size: 350%;
+    margin: 0;
+    color: black;
+    display: inline-block;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+.p-box {
+    font-size: 20px;
+    display: block;
+    /*text-shadow: 0 0 10px WhiteSmoke;*/
+    padding-bottom: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.index {
+    font-size: 450%;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding-top: 40%;
+    text-shadow: 0 0 10px WhiteSmoke;
+}
+
+p a {
+    color: black;
+    font-size: 18px;
+}
+
+ .index_p {
+        padding-bottom: 2%;         
+        padding-top: 1%; 
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 8%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2%;
+        font-size: 120%;
+        background-color: rgba(129, 131, 130, 0.9);
+        border-radius: 8px; 
+    }
+    index_e {
+        padding-bottom: 2%;         
+        padding-top: 1%; 
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 8%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2%;
+        font-size: 120%;
+        background-color: rgba(129, 131, 130, 0.9);
+        border-radius: 8px; 
+    }
+
+p.klein {
+    font-size: 12px;
+    margin-left: 20%;
+    padding: 0;
+    float: none;
+}
+
+/*---
+Aside
+---*/
+
+aside {
+    display: block;
+    /*text-shadow: 0 0 10px WhiteSmoke;*/
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 45px;
+    margin-top: 25px;
+
+}
+
+
+
+/*---
+Nav
+---*/
+
+.fix {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: #818382;
+}
+
+.fix3 {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: #818382;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid black;
+}
+
+.dropdown-content {
+    display: none;
+
+    background-color: #818382;
+    z-index: 1;
+    width: 100%;
+}
+
+.dropdown {
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.dropdown-content a:hover {
+    background-color: dimgrey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: dimgrey;
+}
+
+nav ul li a:hover {
+    background-color: dimgrey;
+    color: black;
+    transform: scale(1.2);
+}
+
+nav ul {
+    text-align: center;
+    background-color: #818382;
+    margin: 0px;
+    padding: 0 0 3px 0;
+    font-size: 18px;
+    list-style: none;
+}
+
+nav ul li {
+    text-align: left;
+    display: block;
+    margin: 15px 10px;
+    width: 250px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid black;
+    display: inline-block;
+  
+}
+
+/*---
+footer
+---*/
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #818382;
+    text-align: center;
+
+}
+
+.botten {
+    text-align: right;
+}
+
+a[href="#top"] {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    left: 80%;
+    bottom: 80px;
+}
+
+.fix2 {
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+}
+
+.ko1 {
+    float: left;
+    margin-top: 4%;
+    margin: 10px;
+    padding: 0;
+    padding-left: 8%;
+    font-size: 90%;
+    display: inline-block;
+}
+
+.ko a {
+    float: right;
+    margin: 5px;
+    padding: 0;
+    padding-left: 20%;
+    font-size: 90%;
+    display: inline-block;
+}
+
+.ko {
+    display: inline-flex;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20%;
+    margin-left: 0;
+    padding: 0;
+}
+
+/*---
+kontackte
+---*/
+
+label {
+    width: 20%;
+    display: inline;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 76%;
+    padding: 3% 3% 0px 1%;
+    border: none;
+    border-bottom: 2px solid gray;
+    color: gray;
+    margin-left: 20%
+}
+
+textarea[ name="message"] {
+    border: 2px solid gray;
+    padding: 3% 3% 0px 1%;
+    height: 180px;
+    width: 76%;
+}
+
+textarea {
+    height: 240px;
+}
+
+input:focus,
+textarea:focus {
+    background-color: lightgrey;
+}
+
+form {
+    margin: 1%;
+    border: 1px solid gray;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    background-color: #818382;
+    padding: 2%
+}
+
+select {
+    margin-left: 9%
+}
+
+input[type="submit"] {
+    margin-left: 20%;
+}
+
+label[for="gm"] {
+    margin-left: 14%;
+}
+
+label[for="gw"] {
+    margin-left: 10%;
+}
+
+/*---
+Inpressum
+---*/
+
+.as_ko p {
+    font-size: 18px;
+    margin: 20px;
+    padding-left: 5%;
+    padding-top: 3%
+}
+
+.ma_ko {
+
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    right: 5%;
+    bottom: 20%;
+}
+
+.ar_ko p {
+    font-size: 22px;
+    margin: 20px;
+    padding-left: 5%;
+    padding-top: 3%
+}
+
+/*------
+64em
+------*/
+
+@media screen and (min-width: 64em) {
+
+    /* ---
+Allgemeine Grundeinstellungen             ---*/
+    .box {
+        height: 550px;
+        display: inline-block;
+    }
+
+    .section-0 {
+        padding-bottom: 400px;
+
+    }
+
+    .section-1 {
+        padding-bottom: 400px;
+    }
+
+    .section-2 {
+        padding-bottom: 400px;
+    }
+
+    .section-3 {
+        padding-bottom: 400px;
+    }
+
+    .section-4 {
+        padding-bottom: 400px;
+    }
+
+    .section-5 {
+        padding-bottom: 400px;
+    }
+
+    .section-6 {
+        padding-bottom: 400px;
+    }
+
+    .section-7 {
+        padding-bottom: 400px;
+    }
+
+    .section-8 {
+        padding-bottom: 400px;
+    }
+
+    .section-9 {
+        padding-bottom: 400px;
+    }
+
+    .section-10 {
+        padding-bottom: 400px;
+    }
+
+    .section-11 {
+        padding-bottom: 400px;
+    }
+
+    .section-12 {
+        padding-bottom: 400px;
+    }
+
+    .section-13 {
+        padding-bottom: 400px;
+    }
+
+    .section-14 {
+        padding-bottom: 400px;
+    }
+
+    .section-15 {
+        padding-bottom: 400px;
+    }
+
+    .section-16 {
+        padding-bottom: 400px;
+    }
+
+    .section-17 {
+        padding-bottom: 400px;
+    }
+
+    .section-18 {
+        padding-bottom: 400px;
+    }
+
+    .section-19 {
+        padding-bottom: 400px;
+    }
+ .section-20 {
+        padding-bottom: 400px;
+    }
+
+    /*---
+seit scrolling !die achse ist um 90 grar verdret
+---*/
+
+
+    /*---
+Text
+---*/
+    h1 {
+        font-size: 500%;
+    }
+
+    .index {
+        font-size: 650%;
+        padding-top: 20%;
+    }
+  
+    .index_p {
+        padding-bottom: 2%;         
+        padding-top: 1%; 
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 8%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2%;
+        font-size: 120%;
+        background-color: rgba(129, 131, 130, 0.9);
+        border-radius: 8px; 
+    }
+
+    .p-box {
+        padding-right: 50%;
+        padding-left: 50px;
+        padding-bottom: 0;
+        display: block;
+    }
+
+    h2 {
+        padding-top: 220px;
+        font-size: 650%;
+    }
+
+    /*---
+ Nav
+---*/
+    .dropbtn {
+        display: none;
+
+    }
+
+    .dropdown-content {
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .li-nav {
+        text-align: center;
+        display: inline-block;
+        margin: 0;
+    }
+
+/*
+    .fix {
+        text-align: center;
+    }
+*/
+
+    .fix3 {
+        margin-left: 7%;
+    }
+
+    .ko {
+        margin-right: 13%;
+    }
+
+    /*---
+Aside
+---*/
+    aside {
+        display: inline-block;
+        margin-left: 55%;
+        margin-right: 25px;
+        margin-bottom: 20%;
+        margin-top: 0;
+        border-left: 3px solid black;
+        padding-left: 20px;
+    }
+
+    h4 {
+        font-size: 300%;
+    }
+
+    .horizontal-scroll-wrapper {
+        width: 150px;
+        height: 450px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        transform: rotate(-90deg);
+        transform-origin: left bottom;
+        margin-left: 525px;
+        margin-right: 25px;
+        margin-top: -275px;
+        position: absolute;
+        display: block;
+        float: center;
+    }
+}
+
+/*-----------------90em------------------------*/
+/*---------------------------------------------*/
+/*---------------------------------------------*/
+@media screen and (min-width: 90em) {}
+
+/*-----------------120em------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+@media screen and (min-width: 120em) {}
+}
+
+
